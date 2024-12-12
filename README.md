@@ -70,11 +70,17 @@ Ayrıca SwaggerUI ile aşağıdaki url'lerden kolayca istek gönderilebilir.
    GET /dev/v1/laborant/<br>
    POST /dev/v1/laborant/<br>
    GET /dev/v1/laborant/{id}<br>
+   GET dev/v1/laborant/?laborantName=ali<br>
+   GET dev/v1/laborant/?laborantSurname=can<br>
+   GET dev/v1/laborant/?laborantName=Veli&laborantSurname=Can&hospitalID=30505<br>
 2. PatientMicroservice<br>
 **localhost:9091/swagger-ui/index.html**<br>
 GET /dev/v1/patient<br>
 POST /dev/v1/patient<br>
 GET /dev/v1/patient/{id}<br>
+GET dev/v1/patient/?patientName=ali<br>
+GET dev/v1/patient/?patientSurname=can<br>
+GET dev/v1/patient/?patientName=Veli&patientSurname=Can&patientTC=10020030045<br>
 3. ReportMicroservice<br>
 **localhost:9092/swagger-ui/index.html**<br>
 GET /dev/v1/report/<br>
